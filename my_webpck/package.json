@@ -1,12 +1,16 @@
 {
-  "name": "webpack",
-  "version": "1.0.0",
+  "name": "my_webpck",
+  "version": "3.6.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --progress --colors"
+    "explain": "node_modules/.bin/webpack 这里的webpack为依赖项",
+    "start": "webpack --mode development"
   },
-  "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.14.0",
+    "webpack-cli": "^3.0.8"
+  }
 }
