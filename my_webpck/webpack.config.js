@@ -8,7 +8,7 @@ module.exports = {
     output: {
       path: path.join(__dirname, 'dist'), // 必须使用绝对地址，输出文件夹（打包后的文件存放的地方）
       //__dirname是node.js中的一个全局变量，它指向当前执行脚本所在的目录。
-      filename: '[name].[chunkhash].js',// 打包后输出文件的文件名
+      filename:'bundle.js',// 打包后输出文件的文件名
       publicPath: './' // 知道如何寻找资源
     },
     module: {
